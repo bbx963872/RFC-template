@@ -1,0 +1,68 @@
+<?txt version = "1.0" encoding = "US-ASCII"?>
+
+<?rfc toc="yes"?>
+<?rfc symrefs="yes"?>
+<?rfc compact="yes"?>
+<?rfc subcompact="no"?>
+<?rfc strict="no"?>
+<?rfc rfcedstyle="yes"?>
+<?rfc comments="yes"?>
+<?rfc inline="yes"?>
+
+<rfc ipr = "trust200902" docName = "draft-temp-rfc-00" category = "info">
+    <front>
+        <title>A Template for RFC Documents</title>
+        <seriesInfo name = "Internet-Draft"/>
+        <seriesInfo status = "informational"/>
+        <!--Mutilple authors' information could be provided here.-->
+        <author fullname = "John Smith" initials = "J" surname = "Smith">
+            <organization abbrev = "RFCA">Request For Comments Academy</organization>
+            <address>
+                <postal>
+                    <street>No.1 Street</street>
+                    <city>City</city>
+                    <region>Region</region>
+                    <code>000000</code>
+                    <country>My Country</country>
+                </postal>
+                <email>jsmith@rfca.com</email>
+                <uri>rfca.com</uri>
+            </address>
+        </author>
+        <date/>
+        <area>Security Area</area>
+        <workgroup>RFC Template Working Group</workgroup>
+        <abstract>
+            <t>
+                This document describes a template for implementing RFC drafts, following the "xml2rfc" version 3 vocabulary.
+                Subsequent writers could modify this template for their own RFC documents, and has been verified by https://xml2rfc.tools.ietf.org/experimental.html.
+            </t>
+        </abstract>
+    </front>
+    <middle>
+        <section title = "Introduction">
+            <t>
+                The standard of writting RFC documents in xml has been proposed as <xref target = "RFC7991"/>.
+            </t>
+        </section>
+    </middle>
+    <back>
+        <!--The refereces of RFC documents could be found in https://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.XXXX.xml-->
+        <references title = "References">
+            <reference anchor="RFC7991" target="https://www.rfc-editor.org/info/rfc7991">
+                <front>
+                    <title>The "xml2rfc" Version 3 Vocabulary</title>
+                    <author initials="P." surname="Hoffman" fullname="P. Hoffman">
+                        <organization/>
+                    </author>
+                    <date year="2016" month="December"/>
+                </front>
+                <seriesInfo name="RFC" value="7991"/>
+                <seriesInfo name="DOI" value="10.17487/RFC7991"/>
+            </reference>
+        </references>
+        <section title = "Appendix">
+            You could modify this document to anything you like!
+        </section>
+    </back>
+</rfc>
